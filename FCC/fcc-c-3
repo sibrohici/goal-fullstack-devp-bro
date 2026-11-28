@@ -7,29 +7,43 @@
   </head>
   <body>
     <h1>HTML Video Element</h1>
-    <video
-      width="640"
-      loop
-      controls
-      muted
-      poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
-    >
-      <source
-        src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
-        type="video/mp4"
-      />
-      <source
-        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm"
-        type="video/webm"
-      />
-      <source
-        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg"
-        type="video/ogg"
-      />
-      <source
-        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov"
-        type="video/quicktime"
-      />
-    </video>
+    <section>
+      <h2>What is the map method and how does it work?</h2>
+
+      <video
+        width="640"
+        loop
+        controls
+        muted
+        poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+      >
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg"
+          type="video/ogg"
+        />
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov"
+          type="video/quicktime"
+        />
+      </video>
+    </section>
+
+    <section>
+      <h2>Sailing Way</h2>
+
+      <audio
+        controls
+        loop
+        src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+      ></audio>
+    </section>
   </body>
 </html>
